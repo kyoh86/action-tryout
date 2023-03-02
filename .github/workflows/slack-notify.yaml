@@ -1,3 +1,4 @@
+name: "Notify to Slack"
 on:
   workflow_call:
     inputs:
