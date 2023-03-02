@@ -1,0 +1,11 @@
+on:
+  workflow_call:
+    inputs:
+      source:
+        required: true
+        type: string
+jobs:
+  empty:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "done"

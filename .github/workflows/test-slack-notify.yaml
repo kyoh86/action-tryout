@@ -1,0 +1,9 @@
+on:
+  workflow_dispatch: {}
+
+jobs:
+  kick:
+    uses: kyoh86/slack-notify/.github/workflows/slack-notify.yaml@main
+    with:
+      source: "Test Slack Notify"
+
